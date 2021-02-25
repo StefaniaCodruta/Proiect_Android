@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPlaceActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/adauga_un_oras_vizitat"
+                style="@style/TextViewTitle" />
+
+            <EditText
+                android:id="@+id/etCityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/denumire"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+               />
+
+            <Spinner
+                android:id="@+id/spnCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                />
+
+            <TextView
+
+                android:id="@+id/tvVisitDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/data_vizitei"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recenzia_dumneavoastra"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp">
+
+                <TextView
+
+                    android:id="@+id/tvRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/numar_de_stele"
+                    android:paddingVertical="15dp"
+                    android:textSize="15sp" />
+
+                <RatingBar
+                    android:id="@+id/rbNrStarsForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:numStars="5"
+                    android:paddingRight="-3dp"
+                    android:stepSize="0.5"
+                    android:paddingEnd="-3dp"
+                   />
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/etMemories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/cateva_cuvinte_despre_experienta"
+                android:inputType="textMultiLine"
+                android:layout_marginStart="25dp" />
+
+            <EditText
+                android:id="@+id/etIdCountryFK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/id_tara"
+                android:inputType="number"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_AddCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:text="@string/salveaza"
+                    style="@style/ButtonTravellingstyle"
+                   />
+                <Button
+                    android:id="@+id/btn_updatePlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="30dp"
+                    android:text="@string/modifica"
+                    style="@style/ButtonTravellingstyle"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                style="@style/TextViewNormal"
+                />
+
+            <ImageView
+                android:id="@+id/imgStars"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/tvLocation"
+                style="@style/TextViewNormal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/tvPrice"
+                style="@style/TextViewNormal"
+                />
+            <TextView
+                android:id="@+id/tvFacilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                style="@style/TextViewNormal"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgHotel"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

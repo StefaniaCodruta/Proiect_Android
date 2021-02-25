@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="primaryTitleColor">@color/primaryTitleColor</item>
+
+
+        <item name="android:textColorPrimary">@color/textColorDarkMode</item>
+        <item name="android:textColorSecondary">@color/textColorDarkMode</item>
+        <item name="android:textColorTertiary">@color/textColorDarkMode</item>
+        <item name="android:windowBackground">@color/backgroundDarkMode</item>
+        <item name="android:listViewStyle">@color/textColorDarkMode</item>
+    </style>
+    <style name="ButtonTravellingstyle">
+        <item name="android:background">@drawable/roundeddark</item>
+    </style>
+    <style name="TextViewTitle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/textColorDarkMode</item>
+    </style>
+    <style name="TextViewNormal">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textColorDarkMode</item>
+    </style>
+
+    <style name="ListViewItem">
+
+    </style>
+
+
+</resources>

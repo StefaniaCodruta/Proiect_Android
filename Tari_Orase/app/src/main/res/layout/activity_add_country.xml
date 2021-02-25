@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCountryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/adauga_o_tara_vizitata"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                style="@style/TextViewTitle"
+              />
+
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/numele_tarii"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                />
+
+            <EditText
+                android:id="@+id/etCapital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/capitala"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+               />
+
+            <Spinner
+                android:id="@+id/spnContinent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+               />
+
+            <EditText
+                android:id="@+id/etLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/limba_oficiala"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                />
+
+            <EditText
+                android:id="@+id/etReligion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/religia_majoritara"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                />
+
+            <EditText
+                android:id="@+id/etPopulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/populatia"
+                android:inputType="number"
+                android:layout_marginStart="25dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                android:layout_marginTop="30dp"
+                android:paddingEnd="10dp"
+                tools:ignore="RtlSymmetry">
+                <Button
+                    android:id="@+id/btn_addCountry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salveaza"
+                    android:layout_margin="30dp"
+                    style="@style/ButtonTravellingstyle"
+
+                 />
+                <Button
+                    android:id="@+id/btn_updateCountry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/modifica"
+                    android:visibility="invisible"
+                    android:layout_margin="30dp"
+                    style="@style/ButtonTravellingstyle"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

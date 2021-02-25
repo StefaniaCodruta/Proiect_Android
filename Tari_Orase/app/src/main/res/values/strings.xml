@@ -1,0 +1,89 @@
+<resources>
+    <string name="id">id loc: </string>
+    <string name="continent">continent: </string>
+    <string name="religie">religie majoritara: </string>
+    <string name="populatie">populatie: </string>
+    <string name="app_name">WorldSeeker</string>
+    <string name="camp_obligatoriu">Camp obligatoriu!</string>
+    <string name="empty_data">Atinge pentru a adauga o data!</string>
+    <string name="empty_rating">Adaugati o recenzie!</string>
+    <string name="succes_insertion">\"Inserare realizata cu succes: \"</string>
+    <string name="failed_insertion">Inserare esuata</string>
+    <string name="firebaseManager">FireBaseManager</string>
+    <string name="acces_denied">Nu se pot accesa datele</string>
+    <string name="traditionsName">traditions</string>
+    <string name="hotels">hoteluri</string>
+    <string name="addPlace">addPlace</string>
+    <string name="datePattern">dd/mm/yyyy</string>
+    <string name="listaHoteluri">listaHoteluri</string>
+    <string name="cancel">Anuleaza</string>
+    <string name="ok">OK</string>
+    <string name="deleteWarningQuestion">Sunteti sigur ca vreti sa stergeti inregistrarea?</string>
+    <string name="deleteRecord">Stergere inregistrare</string>
+    <string name="adauga_un_oras_vizitat">Adauga un oras vizitat</string>
+    <string name="denumire">Denumire</string>
+    <string name="data_vizitei">Data vizitei</string>
+    <string name="recenzia_dumneavoastra">Recenzia dumneavoastra</string>
+    <string name="numar_de_stele">Numar de stele</string>
+    <string name="cateva_cuvinte_despre_experienta">Cateva cuvinte despre experienta</string>
+    <string name="id_tara">Id tara</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="modifica">Modifica</string>
+    <string name="adauga_o_tara_vizitata">Adauga o tara vizitata</string>
+    <string name="numele_tarii">Numele tarii: </string>
+    <string name="capitala">Capitala</string>
+    <string name="limba_oficiala">Limba oficiala: </string>
+    <string name="religia_majoritara">Religia majoritara: </string>
+    <string name="populatia">Populatia: </string>
+    <string name="bine_ati_venit">Bine ati venit!</string>
+    <string name="traditii_si_obiceiuri">Traditii si obiceiuri</string>
+    <string name="hoteluri_apreciate">Hoteluri apreciate</string>
+    <string name="locatii_populare">locatii populare</string>
+    <string name="calatoriile_tale">Calatoriile tale</string>
+    <string name="setari">Setari</string>
+
+    <string name="tari_vizitate">Tari vizitate</string>
+    <string name="continentul_dupa_care_se_face_cautarea">Continentul dupa care se face cautarea</string>
+    <string name="cauta">Cauta</string>
+    <string name="tari_cu_populatia_mai_mare_decat">Tari cu populatia mai mare decat..</string>
+    <string name="rezultatele_cautarii">Rezultatele cautarii</string>
+    <string name="orase_vizitate">Orase vizitate</string>
+    <string name="locatie">Locatie: </string>
+    <string name="moment">Moment</string>
+    <string name="scurta_descriere">Scurta descriere</string>
+    <string name="sterge_tot">Sterge tot</string>
+    <string name="adauga">Adauga</string>
+    <string name="sterge">Sterge</string>
+    <string name="adaugati_o_amintire">Adaugati o amintire</string>
+    <string name="adauga_o_tara">Adauga o tara</string>
+    <string name="adauga_o_localitate">Adauga o localitate</string>
+    <string name="vezi_tarile_vizitate">Vezi tarile vizitate</string>
+    <string name="vezi_locurile_vizitate">Vezi locurile vizitate</string>
+    <string name="id_loc">Id loc: </string>
+    <string name="denumire_loc">Denumire loc: </string>
+    <string name="categorie">Categorie: </string>
+    <string name="experienta_dumneavoastra">Experienta dumneavoastra: </string>
+    <string name="loc">Locatie</string>
+    <string name="descriere">Descriere: </string>
+    <string name="sugestii_de_cazare">Sugestii de cazare</string>
+    <string name="optati_pentru_modul_de_noapte">Optati pentru modul de noapte</string>
+    <string name="location">Locatie: </string>
+    <string name="den">denumire: </string>
+    <string name="limba">limba oficiala: </string>
+    <string name="cap">capitala: </string>
+    <array name="categories">
+        <item>Capitala</item>
+        <item>Oras</item>
+        <item>Sat</item>
+    </array>
+    <array name="continents">
+        <item>Europa</item>
+        <item>America de Nord</item>
+        <item>America de Sud</item>
+        <item>America Centrala</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Antarctida</item>
+    </array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701557380586",
+    "project_id": "travelling-b6d59",
+    "storage_bucket": "travelling-b6d59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701557380586:android:edb3e877839d1ebe254e93",
+        "android_client_info": {
+          "package_name": "com.example.tarisiorase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701557380586-bjvnejmd9ak05hk19d8v6ptpfn9bahej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIcgJ9iHzzAu-O_V3d9qxanvwSms3Zj1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701557380586-bjvnejmd9ak05hk19d8v6ptpfn9bahej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/locatie"
+        android:inputType="text"
+       />
+
+    <EditText
+        android:id="@+id/etMoment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/moment"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etShortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/scurta_descriere"
+        android:inputType="text"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnClearAll"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/sterge_tot"
+            android:layout_gravity="center"
+            style="@style/ButtonTravellingstyle"
+            android:layout_margin="7dp"
+
+            />
+
+        <Button
+
+            android:layout_margin="4dp"
+            android:id="@+id/btn_AddTraditionFB"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/adauga"
+            android:layout_gravity="center"
+            style="@style/ButtonTravellingstyle"
+
+          />
+
+        <Button
+            android:layout_margin="4dp"
+            android:id="@+id/btn_DeleteTraditionFB"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/sterge"
+            android:layout_gravity="center"
+            style="@style/ButtonTravellingstyle"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvTraditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/tradition_item" />
+
+
+</LinearLayout>

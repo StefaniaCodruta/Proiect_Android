@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TravelActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/TextViewTitle"
+            android:text="@string/adaugati_o_amintire"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            tools:ignore="RtlSymmetry"
+            android:layout_margin="30dp"/>
+        <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddCountry"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/adauga_o_tara"
+            android:layout_margin="15dp"
+            style="@style/ButtonTravellingstyle"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddCity"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/adauga_o_localitate"
+            android:layout_margin="15dp"
+            style="@style/ButtonTravellingstyle"/>
+        <Button
+            android:id="@+id/btnShowCountries"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/vezi_tarile_vizitate"
+            android:layout_margin="15dp"
+            style="@style/ButtonTravellingstyle"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/vezi_locurile_vizitate"
+            android:id="@+id/btnShowPlaces"
+            android:layout_margin="15dp"
+            style="@style/ButtonTravellingstyle"/>
+
+
+    </LinearLayout>
+
+

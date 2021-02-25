@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tvIPlaceAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+    <TextView
+        android:id="@+id/tvCityNameAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+    <TextView
+        android:id="@+id/tvCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+    <TextView
+        android:id="@+id/tvVisitDateAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+    <TextView
+        android:id="@+id/tvRatingAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+    <TextView
+        android:id="@+id/tvMemoriesAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewNormal"
+        />
+
+</LinearLayout>
